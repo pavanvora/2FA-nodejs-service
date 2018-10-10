@@ -1,7 +1,7 @@
 {
   "name": "2fa_backend",
   "version": "1.0.0",
-  "description": "Simple 2FA demo application along with implemented JWT authentication using Node.js.",
+  "description": "Simple 2FA demo application with JWT authentication.",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon ./bin/www"
