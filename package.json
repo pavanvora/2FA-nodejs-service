@@ -1,0 +1,26 @@
+{
+  "name": "2fa_backend",
+  "version": "1.0.0",
+  "description": "Simple 2FA demo application along with implemented JWT authentication using Node.js.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "Pavan Vora",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
+    "express": "~4.15.5",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.17.5",
+    "qrcode": "^1.2.0",
+    "speakeasy": "^2.0.0"
+  }
+}
